@@ -1,6 +1,6 @@
 {
-  "homepage": "http://As-21.github.io/robofriends",
-  "name": "robofriends",
+  "homepage": "http://As-21.github.io/robofriends_redux",
+  "name": "robofriends_redux",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
