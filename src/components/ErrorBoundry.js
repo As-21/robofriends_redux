@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 class ErrorBoundry extends Component {
-	constructor (props) {
+	constructor(props) {
 		super(props);
 		this.state = {
 			hasError: false
@@ -9,10 +9,10 @@ class ErrorBoundry extends Component {
 	}
 
 	componentDidCatch(error, info) {
-		this.setState({hasError: true});
+		this.setState({ hasError: true });
 	}
 
-	render () {
+	render() {
 		if (this.state.hasError) {
 			return <h1>Oooops. That is not good</h1>;
 		}
