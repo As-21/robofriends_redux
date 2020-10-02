@@ -1,2 +1,2 @@
 # robofriends
-A website built with React
+A website built with React and Redux
