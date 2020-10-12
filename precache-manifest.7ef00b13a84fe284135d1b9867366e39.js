@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "66c41b0827a955c78fb520df8161779b",
+    "revision": "34b3a7142efa70e578501baf0e7edcb3",
     "url": "/robot-friends_redux/index.html"
   },
   {
-    "revision": "ee69b473cb09f6541920",
+    "revision": "e94cfc9d3e163889c630",
     "url": "/robot-friends_redux/static/css/2.3c03f26f.chunk.css"
   },
   {
-    "revision": "fe9c3db87739681c89bd",
+    "revision": "25a93f7af916ba43d7b7",
     "url": "/robot-friends_redux/static/css/main.235e958f.chunk.css"
   },
   {
-    "revision": "ee69b473cb09f6541920",
-    "url": "/robot-friends_redux/static/js/2.e3921db5.chunk.js"
+    "revision": "e94cfc9d3e163889c630",
+    "url": "/robot-friends_redux/static/js/2.21523b03.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/robot-friends_redux/static/js/2.e3921db5.chunk.js.LICENSE.txt"
+    "url": "/robot-friends_redux/static/js/2.21523b03.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fe9c3db87739681c89bd",
-    "url": "/robot-friends_redux/static/js/main.a579a9b9.chunk.js"
+    "revision": "25a93f7af916ba43d7b7",
+    "url": "/robot-friends_redux/static/js/main.5caa2f2a.chunk.js"
   },
   {
     "revision": "35bf64d40bab76e48d2f",
