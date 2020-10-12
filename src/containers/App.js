@@ -11,9 +11,9 @@ import './App.css';
 const mapStateToProps = state => {
 	return {
 		searchField: state.searchRobots.searchField,
-		robots: state.requestRobots.robots,
-		isPending: state.requestRobots.isPending,
-		error: state.requestRobots.error
+		robots: state.getRobots.robots,
+		isPending: state.getRobots.isPending,
+		error: state.getRobots.error
 	}
 }
 

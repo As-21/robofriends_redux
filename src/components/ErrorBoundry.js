@@ -1,19 +1,26 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import { errorHappened } from '../actions'
+
+const mapStateToProps = state => {
+	return {
+		hasError: state.getRobots.error
+	}
+}
+
+const mapDispatchToProps = dispatch => {
+	return {
+		setError: (text) => dispatch(errorHappened(text))
+	}
+}
 
 class ErrorBoundry extends Component {
-	constructor(props) {
-		super(props);
-		this.state = {
-			hasError: false
-		};
-	}
-
 	componentDidCatch(error, info) {
-		this.setState({ hasError: true });
+		this.props.setError('text');
 	}
 
 	render() {
-		if (this.state.hasError) {
+		if (this.props.hasError) {
 			return <h1>Oooops. That is not good</h1>;
 		}
 		else {
@@ -22,4 +29,4 @@ class ErrorBoundry extends Component {
 	}
 }
 
-export default ErrorBoundry;
+export default connect(mapStateToProps, mapDispatchToProps)(ErrorBoundry);

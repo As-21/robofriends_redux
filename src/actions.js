@@ -2,7 +2,8 @@ import {
     CHANGE_SEARCH_FIELD,
     REQUEST_ROBOTS_PENDING,
     REQUEST_ROBOTS_SUCCESS,
-    REQUEST_ROBOTS_FAILED
+    REQUEST_ROBOTS_FAILED,
+    ERROR_HAPPEND
 } from './constants.js';
 
 export const setSearchField = (text) => ({
@@ -17,3 +18,8 @@ export const requestRobots = () => (dispatch) => {
         .then(data => dispatch({ type: REQUEST_ROBOTS_SUCCESS, payload: data }))
         .catch(error => dispatch({ type: REQUEST_ROBOTS_FAILED, payload: error }))
 }
+
+export const errorHappened = (text) => ({
+    type: ERROR_HAPPEND,
+    payload: text
+})
